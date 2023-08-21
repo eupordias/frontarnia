@@ -1,0 +1,63 @@
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #cf3131;
+  padding: 20px;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+nav a:hover {
+  color: #cf3131;
+  transition: color 0.3s ease;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Ícones */
+.icon {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+/* Exemplo de estilização de um botão com transição */
+.button {
+  background-color: #f2f2f2;
+  padding: 10px 20px;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #333;
+  color: #fff;
+}
+<nav>
+  <a href="index.html"><i class="icon fas fa-home"></i>Área do Cliente</a>
+  <a href="proprietario.html"><i class="icon fas fa-user"></i>Área do Proprietário</a>
+</nav>
+
+<button class="button">Botão de Exemplo</button>

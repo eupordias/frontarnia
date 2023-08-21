@@ -1,0 +1,35 @@
+/* Essa disgraça da um trabalho da mulesta */
+
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .vagas-lista {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .vagas-lista li {
+    margin-bottom: 10px;
+    border: 2px solid #331a1a;
+    padding: 20px;
+  }
+  
+  .habilidades {
+    list-style-type: none;
+    margin: 10px 0 0 0;
+    padding: 0;
+  }
+  
+  .habilidades li {
+    padding: 5px;
+  }
+  
+  .positiva {
+    color: green;
+  }
+  
+  .negativa {
+    color: red;
+  }
+  

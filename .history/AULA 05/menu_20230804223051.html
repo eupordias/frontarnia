@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu Vertical</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      nav {
+        width: 200px;
+        background-color: #fe2727;
+        border-right: 2px solid #521fa9;
+        padding: 10px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+      }
+
+      nav a {
+        display: block;
+        text-decoration: none;
+        color: #161717;
+        font-weight: bold;
+        padding: 10px;
+        border-right: 2px solid #333;
+        transition: background-color 0.3s;
+      }
+
+      nav a:hover {
+        background-color: #ddd;
+      }
+
+      nav a:last-child {
+        border-right: none;
+      }
+
+      main {
+        margin-left: 220px;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="#">Página Inicial</a>
+      <a href="#">Sobre Nós</a>
+      <a href="#">Serviços</a>
+      <a href="#">Portfólio</a>
+      <a href="#">Contato</a>
+    </nav>
+    <main>
+      <h1>Bem-vindo ao Nosso Site</h1>
+      <p>Como você somos mais fortes.</p>
+    </main>
+  </body>
+</html>

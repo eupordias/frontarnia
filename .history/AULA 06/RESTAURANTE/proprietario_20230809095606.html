@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Restaurante - Área do Proprietário</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a href="index.html" class="button">Voltar</a>
+    <main>
+      <h2>Suas opções</h2>
+      <ul>
+        <li><a href="cliente.html">Cardápio</a></li>
+        <li><a href="cardapio-especial.html">Cardápio Especial</a></li>
+      </ul>
+    </main>      
+
+    <!-- Conteúdo da área do proprietário -->
+    <header>
+      <h1>Bem-vindo à Área do Proprietário</h1>
+    </header>
+    
+    <li><a href="itens.html"</a></li>
+      <button id="visualizarCardapio">Ver Itens do Cardápio</button>  
+    
+    <button id="ativarCardapioEspecial">Ativar Cardápio Especial</button>
+
+    <script>
+      // Função a ser executada quando o botão "Ver Itens do Cardápio" for clicado
+      document.getElementById("visualizarCardapio").addEventListener("click", function() {
+        // Redirecionar para a página do cardápio
+        window.location.href = "cliente.html";
+      });
+
+      // Função a ser executada quando o botão "Ativar Cardápio Especial" for clicado
+      document.getElementById("ativarCardapioEspecial").addEventListener("click", function() {
+        // Verificar se o cardápio especial já está ativado
+        var cardapioEspecialAtivado = false; // Defina como true se o cardápio especial já estiver ativado
+
+        if (!cardapioEspecialAtivado) {
+          // Cardápio especial NÃO ativado
+
+          // Alterar o estilo do botão para indicar que o cardápio especial está ativado
+          document.getElementById("ativarCardapioEspecial").classList.add("cardapio-especial-ativado");
+
+          // Ativar o cardápio especial
+          // ... aqui você pode adicionar a lógica para ativar o cardápio especial, como exibir itens exclusivos, alterar a exibição no menu, etc.
+
+          // Exibir uma mensagem para o usuário
+          alert("Cardápio especial ativado!");
+        } else {
+          // Cardápio especial JÁ ativado
+
+          // Alterar o estilo do botão para indicar que o cardápio especial está desativado
+          document.getElementById("ativarCardapioEspecial").classList.remove("cardapio-especial-ativado");
+
+          // Desativar o cardápio especial
+          // ... aqui você pode adicionar a lógica para desativar o cardápio especial, como remover itens exclusivos, voltar à exibição normal no menu, etc.
+
+          // Exibir uma mensagem para o usuário
+          alert("Cardápio especial desativado!");
+        }
+      });
+    </script>
+  </body>
+</html>

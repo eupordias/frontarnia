@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Formulário de Criação de Cardápio</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>Formulário de Criação de Cardápio</h1>
+
+    <form>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="descricao">Descrição:</label>
+      <textarea id="descricao" name="descricao" rows="4" required></textarea>
+
+      <label for="ativo">Ativo?</label>
+      <div>
+        <label for="sim">Sim</label>
+        <input type="radio" id="sim" name="ativo" value="sim" required>
+
+        <label for="nao">Não</label>
+        <input type="radio" id="nao" name="ativo" value="nao" required>
+      </div>
+
+      <h2>Pratos</h2>
+      <label for="prato1">Prato 1:</label>
+      <input type="text" id="prato1" name="prato1" required>
+
+      <label for="prato2">Prato 2:</label>
+      <input type="text" id="prato2" name="prato2" required>
+
+      <label for="valorPrato">Valor do Prato:</label>
+      <input type="number" id="valorPrato" name="valorPrato" required>
+
+      <h2>Bebida</h2>
+      <label for="bebida">Bebida:</label>
+      <input type="text" id="bebida" name="bebida" required>
+
+      <label for="tipoBebida">Tipo de Bebida:</label>
+      <input type="text" id="tipoBebida" name="tipoBebida" required>
+
+      <label for="valorBebida">Valor da Bebida:</label>
+      <input type="number" id="valorBebida" name="valorBebida" required>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>

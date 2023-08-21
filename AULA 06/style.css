@@ -1,0 +1,13 @@
+.botao-com-transicao {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #c02525;
+    transition: background-color 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.botao-com-transicao:hover {
+    background-color: #2980b9;
+}
+```

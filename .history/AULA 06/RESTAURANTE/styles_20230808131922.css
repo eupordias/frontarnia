@@ -1,0 +1,112 @@
+/* Estilos gerais */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #cf3131;
+  padding: 20px;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+nav a:hover {
+  color: #cf3131;
+  transition: color 0.3s ease;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Ícones */
+.icon {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+/* Exemplo de estilização de um botão com transição */
+.button {
+  background-color: #767373;
+  padding: 10px 20px;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Estilos específicos para o cardápio */
+
+.cardapio-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.cardapio-item img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.cardapio-item h3 {
+  margin-top: 10px;
+}
+
+.cardapio-item p {
+  margin-top: 5px;
+}
+
+.cardapio-item .ingredientes {
+  margin-top: 10px;
+}
+
+.cardapio-item .ingredientes.hidden {
+  display: none;
+}
+
+/* Estilos padrão para a página */
+/* ... */
+
+/* Media query para dispositivos móveis */
+@media only screen and (max-width: 600px) {
+  /* Estilos específicos para dispositivos móveis */
+  /* ... */
+}
+
+/* Estilo para o botão "Ativar Cardápio Especial" quando ativado */
+.cardapio-especial-ativado {
+  background-color: #cf3131;
+  color: #fff;
+}
+
+/* Estilo para o botão "Ativar Cardápio Especial" quando desativado */
+.cardapio-especial-desativado {
+  background-color: #767373;
+  color: #fff;
+}

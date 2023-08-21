@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Layout com Flexbox</title>
+  <style>
+    .container {
+        width: 500px;
+        height: 500px;
+        border: 1px solid black;
+        position: relative;
+        display: flex;
+        gap: 10px;
+        margin: 0 auto;
+        padding: 10px;
+        flex-direction:column;
+    }
+
+    .div-1 {
+        background-color: cyan;
+        width: 80px;
+        height: 80px;
+        border-radius: 10px;
+        text-align: center;
+        position: absolute;
+     left: -40px;
+    }
+    .div-2 {
+        background-color: blue;
+        width: 80px;
+        height: 80px;
+        border-radius: 10px;
+        text-align: center;
+        margin-top: 100px;
+    }
+    .div-3 {
+        background-color: brown;
+        width: 80px;
+        height: 80px;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .div-4 {
+        background-color: purple;
+        width: 80px;
+        height: 80px;
+        border-radius: 10px;
+        text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="div-1">1</div>
+    <div class="div-2">2</div>
+    <div class="div-3">3</div>
+    <div class="div-4">4</div>
+  </div>
+</body>
+</html>
